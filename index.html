@@ -15,7 +15,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Make My Day</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -47,20 +47,74 @@
         </div>
       </div>
     </nav>
-  </header>
-  <div class="card" id="featured" style="width: 18rem;">
+  </header>\
+  <div class="card-container">
+    <div class="card" id="featured" style="width: 18rem;">
     <img
       src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
       class="card-img-top"
       alt="..."
     />
-    <div class="card-body">
-      <p class="card-text">
+      <div class="card-body">
+        <p class="card-text">
         Some quick example text to build on the card title and make up the bulk of the
         card's content.
-      </p>
+        </p>
+      </div>
     </div>
   </div>
+  <div id=carousel-container class="row">
+    <div class="multi-carousel" >
+      <div class="multi-carousel-inner">
+        <div class="multi-carousel-item">
+          <img
+            src="https://source.unsplash.com/photos/-VQ0mJ2QVFQ"
+            alt="Gallery image 1"
+            class="w-100"
+          />
+        </div>
+        <div class="multi-carousel-item">
+          <img
+            src="https://source.unsplash.com/photos/-VQ0mJ2QVFQ"
+            alt="Gallery image 2"
+            class="w-100"
+          />
+        </div>
+        <div class="multi-carousel-item">
+          <img
+            src="https://source.unsplash.com/photos/-VQ0mJ2QVFQ"
+            alt="Gallery image 3"
+            class="w-100"
+          />
+        </div>
+        <div class="multi-carousel-item">
+          <img
+            src="https://source.unsplash.com/photos/-VQ0mJ2QVFQ"
+            alt="Gallery image 4"
+            class="w-100"
+            id="gal4"
+          />
+        </div>
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      tabindex="0"
+      data-mdb-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      tabindex="0"
+      data-mdb-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
   <script
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js">
