@@ -1,0 +1,8 @@
+#body {
+    background-color: #ffeb94;
+}
+
+#featured {
+    display: flex;
+    justify-content: center;
+}
