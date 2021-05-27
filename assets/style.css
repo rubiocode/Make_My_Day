@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    background-color:#FFEB94 ;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #FFCCAC;
+    
+}
