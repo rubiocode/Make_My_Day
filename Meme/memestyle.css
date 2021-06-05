@@ -1,5 +1,8 @@
 
-
+a{
+  text-decoration: none;
+  color: rgb(43, 39, 39);
+}
 body {
   font-family: sans-serif;
 
@@ -10,6 +13,14 @@ body {
     background: beige;
     border-radius: 1rem;
 }
+
+/*#gifHolder {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 80%;
+  height: 26rem;
+}*/
 
 .img-fluid {
     display: block;
@@ -27,9 +38,40 @@ body {
 
 .liked {
   border: 1px solid red !important;
-
 }
 
+.btnSave::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f004";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 0.85rem;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.btnSave:hover{
+  color:red;
+}
+
+.btnGenerate::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f01e";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 0.85rem;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btnGenerate:hover{
+  color:blue;
+}
 
 
 #header {
