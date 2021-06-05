@@ -15,14 +15,10 @@
     <link rel="stylesheet" href="favorites.css">
 </head>
 
-<body>
-
-
-
-
+<body class="container-fluid" id="media">
     <header>
         <!-- Navbar -->
-        <div class="container-fluid"></div>
+        <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -33,36 +29,36 @@
                 <div class="collapse navbar-collapse" id="navbarExample01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" aria-current="page"></a>
-                            <i class="fas fa-home fa-lg btn-floating" id="home"></i>
-                        </li>
-                        <!--Favorites Button-->
-                        <button type="button btn">
-                            <i class="far fa-heart fa-lg" id="favoritesBtn"></i>
-                        </button>
-
+                            <a class="nav-link" aria-current="page">
+                                <i class="fas fa-home fa-lg btn-floating" id="home" href="../Home/index.html"></a></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+    </div>
         <!-- Jumbotron -->
         <div class="jumbo p-5 text-center">
             <h1 class="mb-3">Favorites</h1>
         </div>
     </header>
 
-    <div class="container" id="favoriteImages">
+    <div class="container-fluid" id="favoriteMemes">
+
         <div class="mb-5">
             <!--Grid row-->
             <div class="row">
 
 
                 <div class="col-lg-4 col-md-12 mb-4">
+                </div>
+                <!--Grid column-->
 
-                    <img src="./assets/turtle.jfif" class="img-fluid mb-4" alt="">
 
-                    <img src="./assets/beach.jfif" class="img-fluid mb-4" alt="">
+                <div class="col-lg-4 col-md-6 mb-4">
+
+
 
 
                 </div>
@@ -70,26 +66,6 @@
 
 
                 <div class="col-lg-4 col-md-6 mb-4">
-
-                    <img src="./assets/volcano.jfif" class="img-fluid mb-4" alt="">
-
-
-                    <img src="./assets/beach.jfif" class="img-fluid mb-4" alt="">
-
-
-                </div>
-                <!--Grid column-->
-
-
-                <div class="col-lg-4 col-md-6 mb-4">
-
-                    <img src="./assets/turtle.jfif" class="img-fluid mb-4" alt="">
-
-
-                    <img src="./assets/volcano.jfif" class="img-fluid mb-4" alt="">
-
-
-
 
 
                 </div>
@@ -105,9 +81,7 @@
 
                 <div class="col-lg-4 col-md-12 mb-4">
 
-                    <img src="./assets/turtle.jfif" class="img-fluid mb-4" alt="">
 
-                    <img src="./assets/beach.jfif" class="img-fluid mb-4" alt="">
 
 
                 </div>
@@ -116,10 +90,10 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
 
-                    <img src="./assets/volcano.jfif" class="img-fluid mb-4" alt="">
 
 
-                    <img src="./assets/beach.jfif" class="img-fluid mb-4" alt="">
+
+
 
 
                 </div>
@@ -128,10 +102,10 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
 
-                    <img src="./assets/turtle.jfif" class="img-fluid mb-4" alt="">
 
 
-                    <img src="./assets/volcano.jfif" class="img-fluid mb-4" alt="">
+
+
 
 
 
@@ -150,10 +124,6 @@
 
                 <div class="col-lg-4 col-md-12 mb-4">
 
-                    <img src="./assets/turtle.jfif" class="img-fluid mb-4" alt="">
-
-                    <img src="./assets/beach.jfif" class="img-fluid mb-4" alt="">
-
 
                 </div>
                 <!--Grid column-->
@@ -161,22 +131,12 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
 
-                    <img src="./assets/volcano.jfif" class="img-fluid mb-4" alt="">
-
-
-                    <img src="./assets/beach.jfif" class="img-fluid mb-4" alt="">
-
 
                 </div>
                 <!--Grid column-->
 
 
                 <div class="col-lg-4 col-md-6 mb-4">
-
-                    <img src="./assets/turtle.jfif" class="img-fluid mb-4" alt="">
-
-
-                    <img src="./assets/volcano.jfif" class="img-fluid mb-4" alt="">
 
 
 
@@ -198,7 +158,9 @@
 
 
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
-<script type="text/javascript" src="favorites.js"></script>
+<script src="favorites.js"></script>
+
 </html>
