@@ -1,0 +1,36 @@
+
+body {
+    background: #ffeb94;
+    height: 100vh;
+}
+
+.navbar {
+    background: #ffccac;
+}
+
+#home {
+    background-color: #ffccac;
+    border: none;
+    color: black;
+}
+
+#gifHolder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #fdd475;
+    height: 26rem;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.babyBlue {
+    background-color: #C1E1DC;
+    margin: 8px;
+}
