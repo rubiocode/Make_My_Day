@@ -12,14 +12,29 @@ body {
     
 }
 
+#home {
+  border: none;
+  color: black;
+}
+
+.favs {
+  width: 20vw;
+  height: 20vh;
+  padding: 5px;
+
+
+  
+}
 
 #media {
-    background: linear-gradient(60deg, #C1E1DC, #FFCCAC, #FFEB94, #FDD475);
-    background-size: 600% 600%;
-    -webkit-animation: AnimationName 15s ease infinite;
-    -moz-animation: AnimationName 15s ease infinite;
-    animation: AnimationName 15s ease infinite;
-  }
+     background: linear-gradient(60deg, #C1E1DC, #FFCCAC,#C1E1DC, #FFEB94, rgb(201, 159, 201), #FDD475);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+}
+  
   @-webkit-keyframes AnimationName {
     0%{background-position:0% 9%}
     50%{background-position:100% 92%}

@@ -18,14 +18,15 @@ $(document).ready(function(){
                 //applying GIF on the page
                 }).then(function(response) {
                 $("#gifHolder").attr("src", response.data[(randomIndex)].images.fixed_height.url)
-                $("#gifHolder").removeClass("gifHolderSize");
+                $("#gifHolder").attr("data-downsized", response.data[(randomIndex)].images.downsized.url)
+           //     $("#gifHolder").removeClass("gifHolderSize");
 
 
                 // setting up local storage upon favorite button click to append to favorite HTML page
 
                 //click event to save liked images
                 $('#saveGif').on('click', function(){
-                let gif= $("#gifHolder").attr("src")
+                let gif= $("#gifHolder").attr("data-downsized")
 
                 const liked= $('.liked');
                 //add a class of 'liked' to the gif being liked
