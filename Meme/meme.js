@@ -18,6 +18,7 @@ $(document).ready(function () {
             if (memeObj.image[i] > 0) {
                 const $img = $('<img/>', {
                     src: `${memeObj.image}`,
+                    alt: 'Fox images',
                     class: 'imgFormat',
                 });
 
