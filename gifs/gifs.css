@@ -8,6 +8,13 @@ body {
     color: black;
 }
 
+#redoText,
+#heartText {
+    padding: 3px;
+}
+
+
+
 .navBtns {
     display: flex;
 }
@@ -21,7 +28,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FFCCAC;
+
     
 }
 
