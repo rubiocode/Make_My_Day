@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funny Images</title>
+    <title>Images</title>
+
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
@@ -29,8 +30,13 @@
                 <div class="collapse navbar-collapse" id="navbarExample01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item active">
-                            <button type="button" class="btn btn-light btn-floating btnHome"><a href="../Home/index.html">
-                                <i class="fas fa-home"></i></a>
+                            <button type="button" data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Go home"
+                                class="btn btnHome"><a href="../Home/index.html">
+                                    <i class="fas fa-lg fa-home"></i></a>
+                            </button>
+                            <button type="button" data-mdb-toggle="tooltip" data-mdb-placement="bottom"
+                                title="Favorites Page" class="btn"> <a href="../Favorites/favorites.html">
+                                    <i class="fas fa-heart fa-lg" id="favPage"></i></a>
                             </button>
                         </li>
                     </ul>
@@ -42,18 +48,27 @@
     <!-- Jumbotron -->
 
     <div class="wrapper content">
-        <h1 class="mb-3 memeTitle" id="header"> Memes </h1>
-        <div class= "p-5 text-center meme-content">
-            <div class="memeResults"></div>
+        <h1 class="mb-3 memeTitle" id="header"> Images </h1>
+        <div class="p-4 text-center" id="welcomeMessage">
+            <h5 id="welcome">Welcome! Here to grace your day is a randomized gallery of foxes! Baby foxes, big foxes, fat foxes, you name it we got it! Go ahead and generate a new image, <em>love it</em> and generate again! If you change your mind unclick the <em>Love It!</em> button and it removes the images from your favorites!
+            Head over to the <a data-mdb-toggle="tooltip" data-mdb-placement="top" title="Go to Favorites Page now!"
+            href="../Favorites/favorites.html"><em>Favorites</em></a> page to review all your favorite images,quotes, and gifs!</h5>
+        </div>
+
+        <div class="p-4 text-center">
             <button type="button" class="btn btn-light btn-floating btnGenerate" id='generateMeme'>
             </button>
             <button type="button" class="btn btn-light btn-floating btnSave" id='saveMeme'>
             </button>
         </div>
-    </div>              
+        <div class="p-5 text-center meme-content">
+            <div class="memeResults"></div>
+        </div>
+    </div>
 
     <!-- MDB -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
     <script src="meme.js"></script>
 
