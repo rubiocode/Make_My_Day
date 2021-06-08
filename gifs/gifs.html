@@ -31,30 +31,34 @@
                         
                         <li class=" active btnAlign">
                             <!-- <a class="nav-link" aria-current="page"></a> -->
-                            <button 
-                            type="button"  
-                            data-mdb-toggle="tooltip"
-                            data-mdb-placement="bottom"
-                            title="Home"
-                            class="btn" 
-                            href="../Home/index.html">
+                            <a href="../Home/index.html">
+                                <button 
+                                type="button"  
+                                data-mdb-toggle="tooltip"
+                                data-mdb-placement="bottom"
+                                title="Home"
+                                class="btn" 
+                                >
 
-                            <i class="fas fa-home fa-lg" id="home"></i>
-                            </button>
+                                <i class="fas fa-home fa-lg" id="home"></i>
+                                </button>
+                            </a>
                         </li>
 
                         
                         <li class="active btnAlign">
                             <!-- <a class="nav-link" aria-current="page"></a> -->
-                            <button 
-                            type="button"  
-                            data-mdb-toggle="tooltip"
-                            data-mdb-placement="bottom"
-                            title="Favorites Page"
-                            class="btn" href="../Favorites/index.html">
+                            <a href="../Favorites/favorites.html">
+                                <button 
+                                type="button"  
+                                data-mdb-toggle="tooltip"
+                                data-mdb-placement="bottom"
+                                title="Favorites Page"
+                                class="btn">
 
-                            <i class="fas fa-heart fa-lg" id="favPage"></i>
-                            </button>
+                                <i class="fas fa-heart fa-lg" id="favPage"></i>
+                                </button>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -62,6 +66,7 @@
             <!-- Jumbotron -->
             <div class="p-3 text-center">
                 <h1 class="mb-3">Your GIF!</h1>
+                <p>Click the  <span id="redoText">  <i class="fas fa-redo"> </i> </span> button to generate a new Happy GIF and press the <span id="heartText"></span></p>
             </div>
         </header>
 
@@ -78,7 +83,7 @@
             type="button" 
             data-mdb-toggle="tooltip"
             data-mdb-placement="bottom"
-            title="New Gif"
+            title="New GIF"
             class="btn btn-primary btn-floating babyBlue">
                 <i class="redoBtn fas fa-redo"></i>
             </button>

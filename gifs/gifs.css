@@ -21,13 +21,13 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fdd475;
+    background-color: #FFCCAC;
     
 }
 
 .gifHolderSize {
-    width: 80%;
-    height: 26rem;
+    width: auto;
+    height: auto;
 }
 
 #buttons {
@@ -41,7 +41,7 @@ body {
 .babyBlue {
     background-color: #808080;
     margin: 8px;
-    color: rgb(236, 234, 234);
+    color: #C1E1DC;
 }
 
 .babyBlue:hover {
@@ -50,7 +50,7 @@ body {
 }
 
 #media {
-    background: linear-gradient(60deg, #C1E1DC, #FFCCAC, #FFEB94, #FDD475);
+    background: linear-gradient(60deg, #C1E1DC, #FFCCAC, #C1E1DC, #eeb7f0);
     background-size: 600% 600%;
     -webkit-animation: AnimationName 15s ease infinite;
     -moz-animation: AnimationName 15s ease infinite;
