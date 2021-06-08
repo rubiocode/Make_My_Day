@@ -1,0 +1,73 @@
+
+body {
+    height: 100vh;
+}
+
+#home {
+    border: none;
+    color: black;
+}
+
+.navBtns {
+    display: flex;
+}
+
+.btnAlign {
+    display: inline;
+    padding: 20px 10px 0 0;
+}
+
+#gifHolder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fdd475;
+    
+}
+
+.gifHolderSize {
+    width: 80%;
+    height: 26rem;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: black;
+
+}
+
+.babyBlue {
+    background-color: #808080;
+    margin: 8px;
+    color: rgb(236, 234, 234);
+}
+
+.babyBlue:hover {
+    background-color: #C1E1DC;
+    color: #808080;
+}
+
+#media {
+    background: linear-gradient(60deg, #C1E1DC, #FFCCAC, #FFEB94, #FDD475);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+0%{background-position:0% 9%}
+50%{background-position:100% 92%}
+100%{background-position:0% 9%}
+}
+@-moz-keyframes AnimationName {
+0%{background-position:0% 9%}
+50%{background-position:100% 92%}
+100%{background-position:0% 9%}
+}
+@keyframes AnimationName {
+0%{background-position:0% 9%}
+50%{background-position:100% 92%}
+100%{background-position:0% 9%}
+}
