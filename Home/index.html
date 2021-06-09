@@ -12,9 +12,9 @@
   <title>Make My Day</title>
 </head>
 
-<body id="body">
+<body class="container-fluid" id="media">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Make My Day</a>
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
@@ -44,7 +44,7 @@
   <!-- featured -->
   <div class="card bg-dark text-white">
     <img
-      src="https://wallpapercave.com/wp/CqOvBFE.jpg"
+      src="https://wallpapercave.com/wp/FKVHB5I.jpg"
       class="card-img"
       alt="..."
     />
@@ -56,97 +56,40 @@
       <p class="card-text">While you're here you will find many pictures, giphs, and quotes that are sure to brighten your day! So stay awhile and have a look around, you may just find your day made.</p>
     </div>
   </div>
-  
-  <div class="container">
-    <h2 id="giphs" class="sectTitle">Some Giphs</h2>
-    <!-- text carousel -->
-    <div id="carouselConts1" class="carousel slide" data-mdb-ride="carousel">
-      <div class="carousel-inner" id="giph-imgs">
-        <div class="carousel-item active">
-         <a href="../gifs/gifs.html"> <img  class="d-block w-100 randomGif" alt="..." /></a>
-        </div>
-        <div class="carousel-item">
-          <a href="../gifs/gifs.html"> <img  class="d-block w-100 randomGif" alt="..." /></a>
-        </div>
-        <div class="carousel-item">
-          <a href="../gifs/gifs.html"> <img  class="d-block w-100 randomGif" alt="..." /></a>
-        </div>
-      </div>
-      <button class="carousel-control-prev button" type="button" data-mdb-target="#carouselConts1"
-        data-mdb-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next button" type="button" data-mdb-target="#carouselConts1"
-        data-mdb-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-      <!-- <button class="fav" id="fav" type="button">
-        <span class="far fa-heart"></span>
-      </button> -->
+
+<div class="container" id="giphs">
+  <h2 class="sectTitle">Gifs</h2>
+  <div class="card" style="width: 18rem;">
+    <a href="../gifs/gifs.html"><img
+      src=""
+      class="card-img-top randomGif"
+      alt="..."
+    /></a>
+  </div>
+</div>
+
+  <div class="container" id="pics">
+    <h2 class="sectTitle">Pics</h2>
+    <div class="card" style="width: 18rem;">
+      <a href="../Meme/meme.html"><img
+        src="https://randomfox.ca/images/110.jpg"
+        class="card-img-top randomPic"
+        alt="..."
+      /></a>
     </div>
   </div>
 
-  <div class="container">
-    <h2 id="pics" class="sectTitle">Some Pics</h2>
-    <!-- pics carousel -->
-    <div id="carouselConts2" class="carousel slide" data-mdb-ride="carousel">
-      <div class="carousel-inner" id="pic-imgs">
-        <div class="carousel-item active">
-          <a href="../Meme/meme.html"><img class="d-block w-100 randomPic" alt="..." /></a>
-        </div>
-        <div class="carousel-item">
-          <a href="../Meme/meme.html"><img class="d-block w-100 randomPic" alt="..." /></a>
-        </div>
-        <div class="carousel-item">
-          <a href="../Meme/meme.html"><img class="d-block w-100 randomPic" alt="..." /></a>
-        </div>
-      </div>
-      <button class="carousel-control-prev button" type="button" data-mdb-target="#carouselConts2"
-        data-mdb-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next button" type="button" data-mdb-target="#carouselConts2"
-        data-mdb-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-      <!-- <button class="fav" id="fav" type="button">
-        <span class="far fa-heart"></span>
-      </button> -->
-    </div>
-  </div>
+  <div class="container" id="txt">
+    <h2 class="sectTitle">Quotes</h2>
+    <div class="card" style="width: 18rem;">
+      <a href="../Sayings/sayings.html"><div class="txt-body">
+          <p class="text">
 
-  <div class="container">
-    <h2 id="Txt" class="sectTitle">Some Quotes</h2>
-    <!-- giphs carousel -->
-    <div id="carouselConts3" class="carousel slide" data-mdb-ride="carousel">
-      <div class="carousel-inner" id="txt-imgs">
-        <div class="carousel-item active">
-          <a href="../Sayings/sayings.html"><img class="d-block w-100 randomTxt" alt="..." /></a>
+            Genius is one percent inspiration and ninety-nine percent perspiration.
+            -Thomas Edison
+          </p>
         </div>
-        <div class="carousel-item">
-          <a href="../Sayings/sayings.html"><img class="d-block w-100 randomTxt" alt="..." /></a>
-        </div>
-        <div class="carousel-item">
-          <a href="../Sayings/sayings.html"><img class="d-block w-100 randomTxt" alt="..." /></a>
-        </div>
-      </div>
-      <button class="carousel-control-prev button" type="button" data-mdb-target="#carouselConts3"
-        data-mdb-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next button" type="button" data-mdb-target="#carouselConts3"
-        data-mdb-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-      <!-- <button class="fav" id="fav" type="button">
-        <span class="far fa-heart"></span>
-      </button> -->
+      </a>
     </div>
   </div>
 
