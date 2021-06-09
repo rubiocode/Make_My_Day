@@ -2,14 +2,9 @@
     background-color: #ffeb94;
 }
 
-.card-container {
-    display: flex;
-    justify-content: center;
-}
-
 .container {
     display: flex;
-    margin-top: 20px;
+    margin-top: 50px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -18,19 +13,20 @@
 }
 
 .carousel-inner {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 #carouselConts1,
 #carouselConts2,
 #carouselConts3 {
     max-width: fit-content;
-    max-height: 180px;
+    max-height: 220px;
 }
 
 .fav {
     display: flex;
+    margin-top: 14px;
     margin-left: 45%;
     max-height: fit-content;
     max-width: fit-content;
@@ -38,4 +34,10 @@
 
 .sectTitle {
     margin-top: 5%;
+}
+
+.foot-cont {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
 }

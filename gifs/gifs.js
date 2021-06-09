@@ -1,11 +1,11 @@
 
 $(document).ready(function () {
 
-
-    let gifArray = {};
-    let localGifs = JSON.parse(localStorage.getItem('gifs')) || [];
-
-initGif();
+    let localGifs =  JSON.parse(localStorage.getItem('gifs')) || [];
+    let img = localStorage.getItem("img")
+    console.log(img)
+    
+    $("#gifHolder").attr(img)
 
     //click function for 'redo' button
     $(".redoBtn").click(function (event) {
