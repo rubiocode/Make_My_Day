@@ -5,7 +5,7 @@ $(document).ready(function () {
     let img = localStorage.getItem("img")
     console.log(img)
     
-    $("#gifHolder").attr(img)
+    $("#gifHolder").attr("src", img)
 
     //click function for 'redo' button
     $(".redoBtn").click(function (event) {
