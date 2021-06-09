@@ -2,6 +2,11 @@
     background-color: #ffeb94;
 }
 
+.card-title,
+.card-text {
+    color: black;
+}
+
 .container {
     display: flex;
     margin-top: 50px;

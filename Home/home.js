@@ -33,7 +33,7 @@ $(document).ready(function() {
             })
 
     //pics section
-    let randomIndex = Math.floor(Math.random() * 51);
+    let randomPicIndex = Math.floor(Math.random() * 51);
     let initPicAPI = "https://randomfox.ca/floof/";
     $.ajax({
         url: initPicAPI,
@@ -41,10 +41,10 @@ $(document).ready(function() {
         
         //applying pic on the page
         }).then(function(response) {
-        $(".randomPic").attr("src", response.data[(randomIndex)].images.fixed_height.url)
+        $(".randomPic").attr("src", response.data[(randomPicIndex)].images.fixed_height.url)
         $(".randomPic").attr("data-downsized", response.data[(randomIndex)].images.downsized.url)
         //set local storage
-        localStorage.setItem("img", response.data[(randomIndex)].images.fixed_height.url);
+        localStorage.setItem("img", response.data[(randomPicIndex)].images.fixed_height.url);
      })
 
     $(".button").click(function(event) {
@@ -61,6 +61,40 @@ $(document).ready(function() {
                 }).then(function(response) {
                 $(".randomPic").attr("src", response.data[(randomIndex)].images.fixed_height.url)
                 $(".randomPic").attr("data-downsized", response.data[(randomIndex)].images.downsized.url)
+             })
+             
+            })
+
+    //txt section
+    let randomTxtIndex = Math.floor(Math.random() * 51);
+    let initTxtAPI = "https://type.fit/api/quotes";
+    $.ajax({
+        url: initTxtAPI,
+        method: "GET"
+        
+        //applying GIF on the page
+        }).then(function(response) {
+        $(".randomTxt").attr("src", response.data[(randomTxtIndex)].images.fixed_height.url)
+        console.log(response)
+        $(".randomTxt").attr("data-downsized", response.data[(randomTxtIndex)].images.downsized.url)
+        //set local storage
+        localStorage.setItem("img", response.data[(randomTxtIndex)].images.fixed_height.url);
+     })
+
+    $(".button").click(function(event) {
+        event.preventDefault()
+        console.log(event)
+        let randomTxtIndex = Math.floor(Math.random() * 51);
+        
+            //calling API
+            $.ajax({
+                url: initTxtAPI,
+                method: "GET"
+                
+                //applying GIF on the page
+                }).then(function(response) {
+                $(".randomTxt").attr("src", response.data[(randomTxtIndex)].images.fixed_height.url)
+                $(".randomTxt").attr("data-downsized", response.data[(randomTxtIndex)].images.downsized.url)
              })
              
             })
