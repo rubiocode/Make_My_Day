@@ -35,7 +35,7 @@ THEN I see all my saved gifs, images, and quotes in a single page
 ```
 
 
-## _Deployed URL:_ ///////////////////////////////////////////////////////////ADD DEPLOYED URL
+## _Deployed URL:_ https://themimmzyy.github.io/First_Project/Home/index.html
 
 ## _Github URL:_ https://github.com/TheMimmzyy/First_Project
 
