@@ -21,21 +21,18 @@ $(document).ready(function () {
         $("#favorites").append(`<img src=${favGifs[i]} class="favs">`);
     };
 
-/*
 
-        favQuote = JSON.parse(localStorage.getItem(""));
-        for (let i = 0; i < .length; i++) {
 
-        
-            console.log(favQuote);
-            $("favoriteQuotes").append(`<img src=${favQuote}>`);
+        favQuote = localStorage.getItem("favQuotes");
+        for (let i = 0; i < favQuote.length; i++) {
+            console.log(favQuote[i]);
+            document.getElementById("quotes").innerHTML=favQuote
+         
 
         };
 
 
-    };
-*/
-});
+    });
 
 
 
