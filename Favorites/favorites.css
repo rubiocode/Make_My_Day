@@ -34,7 +34,7 @@ body {
   -moz-animation: AnimationName 15s ease infinite;
   animation: AnimationName 15s ease infinite;
 }
-  }
+  
   @-webkit-keyframes AnimationName {
     0%{background-position:0% 9%}
     50%{background-position:100% 92%}

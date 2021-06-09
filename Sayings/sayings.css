@@ -1,7 +1,69 @@
 body {
-  background-color: #FFEB94;
-};
+  background-color:#FFEB94;
+}
 
-nav {
-  background-color: #FFCCAC;
-};
+/* #quote 
+#author {
+  color: gray;
+  font-size: 30px;
+} */
+
+#sayingsHolder {
+background-color: #fdd475;
+margin: 0px 200px;
+font-size: 25px;
+color: gray;
+padding-top: 15px;
+border-radius: 10px;
+}
+
+#home {
+  border: none;
+  color: black;
+}
+
+.babyBlue {
+  background-color: #808080;
+  margin: 8px;
+  color: rgb(236, 234, 234);
+}
+
+#media {
+  background: linear-gradient(60deg, #C1E1DC, #FFCCAC, #FFEB94, #FDD475);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 9%}
+  50%{background-position:100% 92%}
+  100%{background-position:0% 9%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 9%}
+  50%{background-position:100% 92%}
+  100%{background-position:0% 9%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 9%}
+  50%{background-position:100% 92%}
+  100%{background-position:0% 9%}
+}
+
+@media (max-width: 690px) {
+  .btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}
