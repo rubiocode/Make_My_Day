@@ -1,11 +1,14 @@
-$(document).ready(function(){
+
+$(document).ready(function () {
+
 
     let gifArray = {};
-    let localGifs =  JSON.parse(localStorage.getItem('gifs')) || [];
+    let localGifs = JSON.parse(localStorage.getItem('gifs')) || [];
 
+initGif();
 
-//click function for 'redo' button
-    $(".redoBtn").click(function(event) {
+    //click function for 'redo' button
+    $(".redoBtn").click(function (event) {
         event.preventDefault()
         let randomIndex = Math.floor(Math.random() * 51);
         let initGifAPI = 'https://api.giphy.com/v1/gifs/search?q=happy&api_key=SDmOSEvkMENogpqY8E44IlGAsWmz1GAw';
