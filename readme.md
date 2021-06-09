@@ -2,7 +2,7 @@
 This application was built using [MD Boostrap](https://mdbootstrap.com/), [Fox Images API](https://randomfox.ca/floof/), [GIFs API](https://api.giphy.com/v1/gifs/search?q=happy&api_key=SDmOSEvkMENogpqY8E44IlGAsWmz1GAw), and [Quotes API](https://favqs.com/api).
 
 
-Imagine this: You're having a bad day, feeling like nothing will lift your spirits and just wanting something to laugh about. Well welcome to the Make Your Day App, an app filled with funny gifs, cute fox pictures and inspirational sayings to lift your mood and change your day! 
+Imagine this: You're having a bad day, feeling like nothing will lift your spirits and just wanting something to laugh about. Well, welcome to the Make My Day App, an app filled with funny gifs, cute fox pictures and inspirational sayings to lift your mood and change your day! 
 
 ## User Story
 
@@ -44,9 +44,9 @@ THEN I see all my saved gifs, images, and quotes in a single page
 
 
 
-
+!["favoritespage](https://github.com/TheMimmzyy/First_Project/blob/b6c31a08adfb92a246bb38137b2819aab4e3802e/Favorites/favoritesgif.gif)
 ![image](https://user-images.githubusercontent.com/78938193/121119674-e3912f80-c7d0-11eb-8bd7-9ac70543988c.png)
-!["favoritespage](./favoritesgif.gif)
+!["gifpage"](https://github.com/TheMimmzyy/First_Project/blob/31460d005e7007f9a89cf0dd4599e4f1e71a6286/gifs/GIFSscreenshot.gif)
 
 
 ## User Experience 
