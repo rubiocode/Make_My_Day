@@ -1,7 +1,12 @@
 
-
+a{
+  text-decoration: none;
+  color: rgb(43, 39, 39);
+  cursor: pointer;
+}
 body {
   font-family: sans-serif;
+  height: 100vh;
 
 }
 
@@ -11,25 +16,54 @@ body {
     border-radius: 1rem;
 }
 
-.img-fluid {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-    width: 100%;
-}
 
 .imgFormat {
   width: 50%;
-  height: auto;
+  height: 50%;
 }
 
 .liked {
   border: 1px solid red !important;
-
 }
 
+.btnSave::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f004";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 0.85rem;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.redIcon{
+  color:red;
+}
+
+.btnSave:hover{
+  color:red;
+  cursor: pointer;
+}
+
+
+.btnGenerate::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f01e";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 0.85rem;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btnGenerate:hover{
+  color:blue;
+  cursor: pointer;
+}
 
 
 #header {
@@ -47,8 +81,8 @@ body {
 }
 
 #media {
-  background: linear-gradient(60deg, #C1E1DC, #FFCCAC, #FFEB94, #FDD475);
-  background-size: 600% 600%;
+  background: linear-gradient(60deg, #C1E1DC, #FFCCAC,#C1E1DC, #FFEB94, rgb(201, 159, 201), #FDD475);
+  background-size: 800% 800%;
 
   -webkit-animation: AnimationName 15s ease infinite;
   -moz-animation: AnimationName 15s ease infinite;
