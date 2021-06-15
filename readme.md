@@ -1,7 +1,7 @@
 # **Make My Day App**
 This application was re-built using [MD Boostrap](https://mdbootstrap.com/), [CSS Gradient IO](https://cssgradient.io/), [Fox Images API](https://randomfox.ca/floof/), [GIFs API](https://api.giphy.com/v1/gifs/search?q=happy&api_key=SDmOSEvkMENogpqY8E44IlGAsWmz1GAw), [Fontawesome](https://fontawesome.com/), and [Quotes API](https://favqs.com/api).
 
-Original group project can be found here: [First_Project](https://github.com/TheMimmzyy/First_Project)
+Original group project built with my classmates can be found here: [First_Project](https://github.com/TheMimmzyy/First_Project)
 
 
 ## User Story
@@ -35,18 +35,15 @@ THEN I see all my saved gifs, images, and quotes in a single page
 ```
 
 
-## _Deployed URL:_ 
+## _Deployed URL:_ https://rubiocode.github.io/Make_My_Day/index.html
 
-## _Github URL:_ 
+## _Github URL:_ https://github.com/rubiocode/Make_My_Day
 
 
 ## App
 
 
-![favoritespage](https://github.com/TheMimmzyy/First_Project/blob/b6c31a08adfb92a246bb38137b2819aab4e3802e/Favorites/favoritesgif.gif)
-![image](https://user-images.githubusercontent.com/78938193/121119674-e3912f80-c7d0-11eb-8bd7-9ac70543988c.png)
 
-![gifpage](https://github.com/TheMimmzyy/First_Project/blob/31460d005e7007f9a89cf0dd4599e4f1e71a6286/gifs/GIFSscreenshot.gif)
 
 
 ## User Experience 
