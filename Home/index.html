@@ -5,103 +5,162 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+
   <link rel="stylesheet" href="home.css" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
+
   <title>Make My Day</title>
 </head>
 
-<body class="container-fluid" id="media">
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Make My Day</a>
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="../Favorites/favorites.html">Favorites</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#giphs">Giphs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pics">Pics</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#txt">Quotes</a>
-            </li>
-          </ul>
+<!--Main Navigation-->
+<header>
+  <style>
+    /* Carousel styling */
+
+    /* Height for devices larger than 576px */
+    @media (min-width: 992px) {
+      #introCarousel {
+        margin-top: -58.59px;
+      }
+    }
+
+    .navbar .nav-link {
+      color: #fff !important;
+    }
+  </style>
+</header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <p class="navbar-brand nav-link">
+      <strong>Make My Day</strong>
+    </p>
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+      aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarExample01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="../gifs/gifs.html" rel="nofollow" target="_blank">GIFs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Meme/meme.html" target="_blank">Foxy Images</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Sayings/sayings.html" target="_blank">Inspirational Quotes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Favorites/favorites.html" target="_blank">Favorites</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav list-inline">
+        <!-- Icons -->
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/rubiocode/Make_My_Day" rel="nofollow" target="_blank">
+            <i class="fab fa-lg fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->
+
+
+
+
+<body id="media">
+  <!--Jumbotron -->
+  <div class="container-fluid">
+    <div class="p-5 text-center bg-image rounded-3" style="
+    background-image: url('https://www.beachaddicted.com/wordpresss-beachaddicted/wp-content/uploads/2019/12/smilequotesCOVER-1024x615.jpg');
+    height: 400px;">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Welcome!</h1>
+            <h5 class="mb-3" id="header">Browse through our gallery of inspirational quotes, funny gifs, and our cute (yet sassy) fox images!</h5>
+            <h6 class="mb-3">Click on any image below to navigate to the respective page or use the navigation bar at the top of the screen</h6>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-
-  <!-- featured -->
-  <div class="card bg-dark text-white">
-    <img
-      src="https://wallpapercave.com/wp/FKVHB5I.jpg"
-      class="card-img"
-      alt="..."
-    />
-    <div class="card-img-overlay">
-      <h5 class="card-title">Welcome! Time to make your day!</h5>
-      <p class="card-text">
-        Are you feeling down and in need of a pick-me-up? Well you've come to the right place!
-      </p>
-      <p class="card-text">While you're here you will find many pictures, giphs, and quotes that are sure to brighten your day! So stay awhile and have a look around, you may just find your day made.</p>
     </div>
   </div>
+  <!-- Jumbotron -->
 
-<div class="container" id="giphs">
-  <h2 class="sectTitle">Gifs</h2>
-  <div class="card" style="width: 18rem;">
-    <a href="../gifs/gifs.html"><img
-      src=""
-      class="card-img-top randomGif"
-      alt="..."
-    /></a>
+  <!-- Gallery -->
+<div class="row" id="gallery">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <a title="Go to Foxy Images Page" class="link" href="../Meme/meme.html" target="_blank">
+      <img
+      src="https://randomfox.ca/images/41.jpg"
+      class="w-100 shadow-1-strong rounded mb-4 thumbnail"
+      alt=""/>
+    </a>
+
+    <a title="Go to GIfs Page" class="link" href="../gifs/gifs.html" rel="nofollow" target="_blank">
+      <img
+      src="https://media2.giphy.com/media/l41lS0IgRIFkAuA5G/giphy.gif?cid=ecf05e47wmumvzv7cjej2pacdma1ezct0y4zg2h6h4x7puyp&rid=giphy.gif&ct=g"
+      class="w-100 shadow-1-strong rounded mb-4 thumbnail"
+      alt=""/>
+    </a>
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <a title="Go to Inspirational Quotes Page" class="nav-link" href="../Sayings/sayings.html" target="_blank">
+      <img
+      src="https://th.bing.com/th/id/R531a234302f619e006d047af4789d5af?rik=yeAXkwoDPVUTLA&riu=http%3a%2f%2fwww.dreamsquote.com%2fwp-content%2fuploads%2f2017%2f06%2fPositive-Quotes-about-life-Take-a-Deep-Breath-daily-inspirational-quotes-about-positive.jpg&ehk=3zqxIfyweiWpPl78usaWEdZzg5GUH2rMQo87ciIkuNc%3d&risl=&pid=ImgRaw"
+      class="w-100 shadow-1-strong rounded mb-4 thumbnail"
+      alt=""/>
+    </a>
+    <a title="Go to Foxy Images Page" class="nav-link" href="../Meme/meme.html" target="_blank">
+      <img
+      src="https://randomfox.ca/images/39.jpg"
+      class="w-100 shadow-1-strong rounded mb-4 thumbnail"
+      alt=""/>
+    </a>
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <a title="Go to GIfs Page" class="link" href="../gifs/gifs.html" rel="nofollow" target="_blank">
+      <img
+      src="https://media2.giphy.com/media/Lb4IZLmCfALhm/giphy.gif?cid=ecf05e47wdkq6rzbye8vonsxobjn69x1ncdlzm5pjgqikl2d&rid=giphy.gif&ct=g"
+      class="w-100 shadow-1-strong rounded mb-4 thumbnail"
+      alt=""/>
+    </a>
+
+    <a title="Go to Inspirational Quotes Page" class="nav-link" href="../Sayings/sayings.html" target="_blank">
+      <img
+      src="https://th.bing.com/th/id/R2f2675407fe6dfd3b24fc55b9f6795a2?rik=fB%2bRdArf9G0YsA&riu=http%3a%2f%2fwww.prettydesigns.com%2fwp-content%2fuploads%2f2015%2f04%2fSuccess-Quotes-8.jpg&ehk=VEE6Dqi3bvGBuJvy1C7d92Y7uiJkHc88JAV%2bWP3exmM%3d&risl=&pid=ImgRaw"
+      class="w-100 shadow-1-strong rounded mb-4 thumbnail"
+      alt=""/>
+    </a>
   </div>
 </div>
-
-  <div class="container" id="pics">
-    <h2 class="sectTitle">Pics</h2>
-    <div class="card" style="width: 18rem;">
-      <a href="../Meme/meme.html"><img
-        src="https://randomfox.ca/images/110.jpg"
-        class="card-img-top randomPic"
-        alt="..."
-      /></a>
-    </div>
-  </div>
-
-  <div class="container" id="txt">
-    <h2 class="sectTitle">Quotes</h2>
-    <div class="card" style="width: 18rem;">
-      <a href="../Sayings/sayings.html"><div class="txt-body">
-          <p class="text">
-
-            Genius is one percent inspiration and ninety-nine percent perspiration.
-            -Thomas Edison
-          </p>
-        </div>
-      </a>
-    </div>
-  </div>
-
+<!-- Gallery -->
+  <!-- Original Project GitHub Contributors -->
   <footer>
-    <div class="foot-cont">
-      <h6>made with love</h6>
-    </div>
-  </footer>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      Made With Love-Original Group Project Found Here!:
+      <a class="text-dark" href="https://github.com/TheMimmzyy/First_Project" rel="nofollow" target="_blank">
+        <i class="fab fa-lg fa-github"></i>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
-  <script type="text/javascript" src="home.js"></script>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--Footer-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+  <script src="home.js"></script>
 </body>
 
 </html>

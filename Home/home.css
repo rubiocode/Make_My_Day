@@ -1,77 +1,82 @@
-.card-title,
-.card-text {
-    color: #4e3abd;
-}
-
 .container {
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
-#giph-imgs {
-    max-width: 500px;
-    max-height: 500px;
-}
-
-.txt-body {
-    background-color: #fdd475;
-    font-size: 25px;
-    color: gray;
-    border-radius: 10px;
+#gallery{
+padding-top: 5%;
 }
 
 
-.sectTitle {
-    margin-top: 5%;
+.header{
+padding-left: 5%;
+padding-right: 5%; 
+line-height: 1.5;
+}
+
+.navbar{
+font-size: 1.2rem;
 }
 
 .foot-cont {
-    display: flex;
-    margin-top: 100px;
-    justify-content: center;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
 }
+
+.thumbnail{
+transition: 1s ease;
+}
+
+.thumbnail:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
+
 
 #media,
 .navbar {
-    background: linear-gradient(60deg, #C1E1DC, #FFCCAC,#C1E1DC, #FFEB94, rgb(201, 159, 201), #FDD475);
-    background-size: 800% 800%;
-  
-    -webkit-animation: AnimationName 15s ease infinite;
-    -moz-animation: AnimationName 15s ease infinite;
-    animation: AnimationName 15s ease infinite;
+  background: linear-gradient(60deg, #C1E1DC, #FFCCAC,#C1E1DC, #FFEB94, rgb(201, 159, 201), #FDD475);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 9%}
-    50%{background-position:100% 92%}
-    100%{background-position:0% 9%}
+  0%{background-position:0% 9%}
+  50%{background-position:100% 92%}
+  100%{background-position:0% 9%}
 }
-  @-moz-keyframes AnimationName {
-    0%{background-position:0% 9%}
-    50%{background-position:100% 92%}
-    100%{background-position:0% 9%}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 9%}
+  50%{background-position:100% 92%}
+  100%{background-position:0% 9%}
 }
-  @keyframes AnimationName {
-    0%{background-position:0% 9%}
-    50%{background-position:100% 92%}
-    100%{background-position:0% 9%}
+@keyframes AnimationName {
+  0%{background-position:0% 9%}
+  50%{background-position:100% 92%}
+  100%{background-position:0% 9%}
 }
 
 @media (max-width: 690px) {
-    .card-img-overlay {
-      font-size: 1rem;
-      margin: 16px 0px 0px 0px;
-      padding: 10px 15px;
-    }
-  
+  .card-img-overlay {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
   }
-  
-  @media (max-width: 500px) {
-    .card-img-overlay {
-      font-size: 0.8rem;
-    }
+
+}
+
+@media (max-width: 500px) {
+  .card-img-overlay {
+    font-size: 0.8rem;
   }
+}
