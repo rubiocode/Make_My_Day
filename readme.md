@@ -1,8 +1,8 @@
 # **Make My Day App**
-This application was built using [MD Boostrap](https://mdbootstrap.com/), [CSS Gradient IO](https://cssgradient.io/), [Fox Images API](https://randomfox.ca/floof/), [GIFs API](https://api.giphy.com/v1/gifs/search?q=happy&api_key=SDmOSEvkMENogpqY8E44IlGAsWmz1GAw), and [Quotes API](https://favqs.com/api).
+This application was re-built using [MD Boostrap](https://mdbootstrap.com/), [CSS Gradient IO](https://cssgradient.io/), [Fox Images API](https://randomfox.ca/floof/), [GIFs API](https://api.giphy.com/v1/gifs/search?q=happy&api_key=SDmOSEvkMENogpqY8E44IlGAsWmz1GAw), [Fontawesome](https://fontawesome.com/), and [Quotes API](https://favqs.com/api).
 
+Original group project can be found here: [First_Project](https://github.com/TheMimmzyy/First_Project)
 
-Imagine this: You're having a bad day, feeling like nothing will lift your spirits and just wanting something to laugh about. Well, welcome to the Make My Day App, an app filled with funny gifs, cute fox pictures and inspirational sayings to lift your mood and change your day! 
 
 ## User Story
 
@@ -35,9 +35,9 @@ THEN I see all my saved gifs, images, and quotes in a single page
 ```
 
 
-## _Deployed URL:_ https://themimmzyy.github.io/First_Project/Home/index.html
+## _Deployed URL:_ 
 
-## _Github URL:_ https://github.com/TheMimmzyy/First_Project
+## _Github URL:_ 
 
 
 ## App
@@ -47,7 +47,7 @@ THEN I see all my saved gifs, images, and quotes in a single page
 ![image](https://user-images.githubusercontent.com/78938193/121119674-e3912f80-c7d0-11eb-8bd7-9ac70543988c.png)
 
 ![gifpage](https://github.com/TheMimmzyy/First_Project/blob/31460d005e7007f9a89cf0dd4599e4f1e71a6286/gifs/GIFSscreenshot.gif)
-![homepage](Home/home.png)
+
 
 ## User Experience 
 
@@ -71,8 +71,3 @@ THEN I see all my saved gifs, images, and quotes in a single page
 * Server-Side API Calls
 * CSS
 * HTML
-
-
-
-
-
