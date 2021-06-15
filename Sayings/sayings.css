@@ -1,15 +1,16 @@
+a{
+  text-decoration: none;
+  color: rgb(43, 39, 39);
+  cursor: pointer;
+}
 body {
-  background-color:#FFEB94;
+  font-family: cursive;
+  height: 100vh;
+
 }
 
-/* #quote 
-#author {
-  color: gray;
-  font-size: 30px;
-} */
-
 #sayingsHolder {
-background-color: #fdd475;
+background-color: beige;
 margin: 0px 200px;
 font-size: 25px;
 color: gray;
@@ -29,8 +30,8 @@ border-radius: 10px;
 }
 
 #media {
-  background: linear-gradient(60deg, #C1E1DC, #FFCCAC, #FFEB94, #FDD475);
-  background-size: 600% 600%;
+  background: linear-gradient(60deg, #C1E1DC, #FFCCAC,#C1E1DC, #FFEB94, rgb(201, 159, 201), #FDD475);
+  background-size: 800% 800%;
 
   -webkit-animation: AnimationName 15s ease infinite;
   -moz-animation: AnimationName 15s ease infinite;

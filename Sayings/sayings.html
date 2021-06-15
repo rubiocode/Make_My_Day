@@ -1,73 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-      rel="stylesheet"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- MDB -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./sayings.css" />
-    <title>Sayings</title>
-  </head>
-  <body id="media">
-    <!-- Navbar -->
-    <nav id="navigation" class="navbar navbar-expand-lg navbar-light">
-      <div>
-        <a href="../Home/index.html">
-          <button 
-          type="button"  
-          data-mdb-toggle="tooltip"
-          data-mdb-placement="bottom"
-          title="Home"
-          class="btn" 
-          >
 
-          <i class="fas fa-home fa-lg" id="home"></i>
-          </button>
-      </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./sayings.css" />
+  <title>Quotes</title>
+</head>
+
+<body class="container-fluid" id="media">
+  <!-- Navbar -->
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation" id="home">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a href="../Home/index.html">
+                <button type="button" data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Go home"
+                class="btn btnHome">
+                    <i class="fas fa-lg fa-home"></i>
+                </button>
+            </a>
+            <a href="../Favorites/favorites.html">
+                <button type="button" data-mdb-toggle="tooltip" data-mdb-placement="bottom"
+                title="Favorites Page" class="btn">
+                    <i class="fas fa-heart fa-lg" id="favPage"></i>
+                </button>
+            </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-    <!-- Jumbotron -->
-    <div class="yellow">
-      <header>
-        <div class="p-5 text-center">
-          <h1 class="mb-3">Sayings</h1>
-        </div>
-      </header>
-      <div id="sayingsHolder">
-        <div
-          id="sayings"
-          class=".d-flex .justify-content-center text-center">
-          <p id="quote"></p>
-          <p id="author">-</p>
-        </div>
-      </div>
+  </header>
+
+  <!-- Jumbotron -->
+  <div class="wrapper content">
+    <header>
       <div class="p-5 text-center">
-        <button
-          type="button"
-          class="btn btn-primary btn-floating babyBlue refresh-button"
-        >
-          <i class="fas fa-redo"></i>
-        </button>
-        <button type="button" class="btn btn-primary btn-floating babyBlue fav-button">
-          <i class="far fa-heart"></i>
-        </button>
+        <h1 class="mb-3">Inspirational Quotes</h1>
+      </div>
+    </header>
+    <div class="media" id="sayingsHolder">
+      <div id="sayings" class=".d-flex .justify-content-center text-center">
+        <p id="quote"></p>
+        <p id="author">-</p>
       </div>
     </div>
+    <div class="p-5 text-center">
+      <button type="button" class="btn btn-primary btn-floating babyBlue refresh-button">
+        <i class="fas fa-redo"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-floating babyBlue fav-button">
+        <i class="far fa-heart"></i>
+      </button>
+    </div>
+  </div>
+  <!-- Original Project GitHub Contributors -->
+  <footer>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      Made With Love-Original Group Project Found Here!:
+      <a class="text-dark" href="https://github.com/TheMimmzyy/First_Project" rel="nofollow" target="_blank">
+        <i class="fab fa-lg fa-github"></i>
+
+    </div>
     <script type="text/javascript" src="sayings.js"></script>
-  </body>
+</body>
+
 </html>
