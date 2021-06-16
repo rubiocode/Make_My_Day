@@ -40,9 +40,22 @@ THEN I see all my saved gifs, images, and quotes in a single page
 ## _Github URL:_ https://github.com/rubiocode/Make_My_Day
 
 
-## App
+## The App
 
+### Homepage 
+![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/78938193/122134045-bb1dbc80-cdf2-11eb-83c5-19f702af1298.gif)
 
+### Gifs Page 
+![image](https://user-images.githubusercontent.com/78938193/122134492-8e1dd980-cdf3-11eb-8355-b631a1a0f325.png)
+
+### Foxy Images Page
+![image](https://user-images.githubusercontent.com/78938193/122134693-ff5d8c80-cdf3-11eb-9451-e1e9ca2ce8a9.png)
+
+### Inspirational Quotes Page
+![image](https://user-images.githubusercontent.com/78938193/122134616-d2a97500-cdf3-11eb-98ce-06a0aa29bae6.png)
+
+### Favorites Page
+![image](https://user-images.githubusercontent.com/78938193/122134531-a1c94000-cdf3-11eb-9368-d72bf2a485c5.png)
 
 
 
